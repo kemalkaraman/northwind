@@ -1,0 +1,18 @@
+package kodlamaio.nortwind.api;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import kodlamaio.nortwind.entities.concretes.Product;
+
+@RestController 
+@RequestMapping("/api/products") 
+public class ProductsController {
+ 
+	public List<Product> getAll()
+}
+
+//kodlama.io/api/products
+//dış dünyadan bize istek gelirse bu controller yakalacak

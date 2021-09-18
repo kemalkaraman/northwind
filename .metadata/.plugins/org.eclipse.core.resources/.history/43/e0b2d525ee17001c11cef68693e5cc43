@@ -1,0 +1,19 @@
+package kodlamaio.nortwind.business.concretes;
+
+import java.util.List;
+
+import kodlamaio.nortwind.business.abstracts.ProductService;
+import kodlamaio.nortwind.entities.concretes.Product;
+
+public class ProductManager implements ProductService {
+
+	
+	privete ProductDao
+	
+	@Override
+	public List<Product> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
