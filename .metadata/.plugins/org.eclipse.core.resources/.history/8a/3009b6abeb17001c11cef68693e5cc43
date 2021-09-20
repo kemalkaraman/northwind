@@ -1,5 +1,0 @@
-package kodlamaio.nortwind.dataAccess.abstracts;
-
-public class ProductDao {
-
-}
